@@ -10,7 +10,6 @@ const { src, dest, parallel, series, watch } = require('gulp');
 
 const dependCss = () => {
   return src([
-    'node_modules/wowjs/css/libs/animate.css',
     'node_modules/layui/dist/css/layui.css',
     'node_modules/plyr/dist/plyr.css',
   ])
@@ -20,8 +19,6 @@ const dependCss = () => {
 const dependJavascript = () => {
   return src([
     'node_modules/jquery/dist/jquery.min.js',
-    'node_modules/wowjs/dist/wow.min.js',
-    'node_modules/lodash/lodash.js',
     'node_modules/layui/dist/layui.js',
     'node_modules/plyr/dist/plyr.js',
   ])

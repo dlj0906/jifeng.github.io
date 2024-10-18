@@ -1,9 +1,17 @@
-$header-height: 60px;
+$header-height: 55px;
 
 .header-wrapper {
 
   .header-shadow {
     height: $header-height;
+  }
+
+  .header-border {
+    width: 100%;
+    height: 5px;
+    background: #00B6B6;
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
   }
 
   .header-container {
@@ -38,25 +46,86 @@ $header-height: 60px;
         display: flex;
 
         .header-link {
+          height: 22px;
           font-weight: normal;
           font-size: 18px;
-          line-height: 21px;
+          line-height: 22px;
           display: flex;
           align-items: center;
           color: #FFFFFF;
+          padding-left: 22px;
+          background-size: 20px;
+          background-repeat: no-repeat;
+          background-position: left center;
+
+          &.phone {
+            background-image: url(../images/nav/phone.png);
+          }
+
+          &.car {
+            background-image: url(../images/nav/car.png);
+          }
+
+          &.pc {
+            background-image: url(../images/nav/pc.png);
+          }
+
+          &.software {
+            background-image: url(../images/nav/software.png);
+          }
+
+          &.digital {
+            background-image: url(../images/nav/digital.png);
+          }
+
+          &.ranking {
+            background-image: url(../images/nav/ranking.png);
+          }
 
           &:not(:first-child) {
             margin-left: 40px;
           }
 
-          img {
-            width: 20px;
-            height: 20px;
-            margin-right: 2px;
-          }
-
           &.active {
-            color: #3A3A3A;
+            color: #00B6B6;
+            position: relative;
+
+            &:after {
+              content: '';
+              width: 0;
+              height: 0;
+              border-left: 7.5px solid transparent;
+              border-right: 7.5px solid transparent;
+              border-bottom: 10px solid #00B6B6;
+              position: absolute;
+              bottom: -17px;
+              left: 50%;
+              transform: translateX(-50%);
+            }
+
+            &.phone {
+              background-image: url(../images/nav/phone-active.png);
+            }
+
+            &.car {
+              background-image: url(../images/nav/car-active.png);
+            }
+
+            &.pc {
+              background-image: url(../images/nav/pc-active.png);
+            }
+
+            &.software {
+              background-image: url(../images/nav/software-active.png);
+            }
+
+            &.digital {
+              background-image: url(../images/nav/digital-active.png);
+            }
+
+            &.ranking {
+              background-image: url(../images/nav/ranking-active.png);
+            }
           }
         }
       }
