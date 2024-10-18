@@ -1,0 +1,6 @@
+.subject-wrapper .subject-content{margin-top:1rem}.subject-wrapper .subject-content .texts{display:grid;grid-template-columns:1fr 1fr;grid-gap:1.25rem}
+.subject-wrapper .subject-content .texts .item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;background:#eaf6ff;padding:.75rem 1.125rem;cursor:pointer}
+.subject-wrapper .subject-content .texts .item:hover .text{color:#40abff}.subject-wrapper .subject-content .texts .item .label{width:2.125rem;height:1.125rem;background:#40abff;font-weight:400;font-size:.75rem;color:#fff;line-height:1.125rem;text-align:center;margin-right:.5625rem}
+.subject-wrapper .subject-content .texts .item .text{-webkit-box-flex:1;-ms-flex:1;flex:1;font-weight:500;font-size:1rem;color:#3a3a3a;line-height:1.375rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.subject-wrapper .subject-content .imgs{display:grid;grid-template-columns:repeat(3,24.125rem);grid-gap:1.25rem;height:13.5625rem;margin-top:1rem}
+.subject-wrapper .subject-content .imgs img{background:red;width:100%;height:100%;cursor:pointer}

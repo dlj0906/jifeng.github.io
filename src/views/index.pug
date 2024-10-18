@@ -1,0 +1,33 @@
+extends common/layout.pug
+
+block append styles
+  link(rel="stylesheet" href="./styles/home.css")
+
+block content
+  include home/banner.pug
+  include home/nav.pug
+  include home/wonderful.pug
+  .content-container.advertisement
+    img(src="./images/demo.png")
+  .content-container.flex-center.flex-start
+    include home/ranking.pug
+    include home/headline.pug
+  .content-container.advertisement
+      img(src="./images/demo.png")
+  include home/video.pug
+  .content-container.advertisement
+    img(src="./images/demo.png")
+  .content-container.flex-center.space-between
+    include home/picture.pug
+    include home/live.pug
+  .content-container.advertisement
+    img(src="./images/demo.png")
+  include home/short.pug
+  .content-container.advertisement
+    img(src="./images/demo.png")
+  include home/subject.pug
+  .content-container.advertisement
+      img(src="./images/demo.png")
+  .content-container.space-between
+    include home/recommend.pug
+    include home/hot.pug

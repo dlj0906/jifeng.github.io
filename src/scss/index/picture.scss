@@ -1,0 +1,33 @@
+// 机锋图赏
+.picture-wrapper {
+
+  .picture-content {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+
+    .item {
+      width: 231px;
+      height: 154px;
+      position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+        background: red;
+      }
+
+      p {
+        width: 100%;
+        padding: 16px  12px 10px;
+        position: absolute;
+        font-size: 15px;
+        color: #FFFFFF;
+        line-height: 21px;
+        bottom: 0;
+        left: 0;
+      }
+    }
+  }
+}

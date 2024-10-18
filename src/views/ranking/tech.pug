@@ -1,0 +1,27 @@
+.ranking-tech-wrapper
+  .tech-content
+    .layui-tab.left-tab.layui-tab-brief
+      ul.layui-tab-title.left-tab-header
+        img.title(src="./images/panel/tech.png")
+        li.left-tab-item.layui-this
+          img(src="./images/ranking/screen.png")
+          p 屏幕排行
+        li.left-tab-item
+          img(src="./images/ranking/camera.png")
+          p 相机排行
+        li.left-tab-item
+          img(src="./images/ranking/battery.png")
+          p 续航排行
+        li.left-tab-item
+          img(src="./images/ranking/game.png")
+          p 游戏性能
+      .layui-tab-content
+        .layui-tab-item.layui-show
+          include tab.pug
+        .layui-tab-item
+          include tab.pug
+        .layui-tab-item
+          include tab.pug
+        .layui-tab-item
+          include tab.pug
+

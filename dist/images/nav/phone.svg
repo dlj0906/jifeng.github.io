@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>切片</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-271.000000, -91.000000)">
+            <g id="icon/手机" transform="translate(271.000000, 91.000000)">
+                <g id="编组" transform="translate(1.000000, 1.000000)" fill-rule="nonzero">
+                    <rect id="矩形" fill="#000000" opacity="0" x="0" y="0" width="20" height="20"></rect>
+                    <path d="M12.0833333,14.5282638 C12.4742341,14.5284397 12.7954567,14.8368352 12.8115535,15.2274044 C12.8276502,15.6179736 12.5328939,15.9517557 12.1433333,15.9840972 L12.0833333,15.9865972 L7.91666666,15.9865972 C7.52576592,15.9864213 7.20454327,15.6780258 7.18844655,15.2874566 C7.17234982,14.8968874 7.46710607,14.5631053 7.85666666,14.5307638 L7.91666666,14.5282638 L12.0833333,14.5282638 Z" id="形状结合" stroke="#444444" stroke-width="0.5" fill="#444444"></path>
+                </g>
+                <rect id="矩形" stroke="#444444" stroke-width="2" x="4" y="2" width="14" height="18" rx="1"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

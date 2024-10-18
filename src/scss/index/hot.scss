@@ -1,0 +1,64 @@
+//  微博热议
+.hot-wrapper {
+  margin-left: 31px;
+
+  .hot-content {
+
+    .comment {
+      max-height: 713px;
+      overflow-y: auto;
+
+      .item {
+        padding: 12px 0;
+        border-bottom: 1px solid #F2F2F2;
+
+        .text {
+          font-size: 15px;
+          color: #3A3A3A;
+          line-height: 21px;
+          margin-bottom: 8px;
+        }
+
+        .imgs {
+          display: flex;
+          margin-bottom: 12px;
+
+          img {
+            width: 58px;
+            height: 58px;
+            margin-right: 12px;
+          }
+        }
+
+        .info {
+          display: flex;
+          align-items: center;
+          font-size: 13px;
+          color: #999999;
+          line-height: 18px;
+
+          .name {
+            margin-left: 12px;
+          }
+
+          .controls {
+            display: flex;
+            margin-left: auto;
+            align-items: center;
+
+            .control {
+              margin-left: 16px;
+              display: flex;
+              align-items: center;
+
+              img {
+                width: 16px;
+                margin-right: 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

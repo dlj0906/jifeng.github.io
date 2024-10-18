@@ -1,0 +1,16 @@
+html,body{margin:0;padding:0;height:100vh;position:relative}body{font-size:1.5rem;font-weight:400;background:#fbfbfb}
+*{scrollbar-width:thin !important}* ::-webkit-scrollbar{width:2px;height:2px}* ::-webkit-scrollbar:hover{width:4px;height:4px}
+* ::-webkit-scrollbar-thumb{border-radius:50%;background-color:#858585}* ::-webkit-scrollbar-track{border-radius:50%;background-color:#f0f0f0}
+*,*::before,*::after{line-height:1;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-box-sizing:border-box;box-sizing:border-box;scroll-behavior:smooth;font-family:"DingTalk","Microsoft YaHei"}
+a{outline:0;text-decoration:none;-webkit-transition-duration:500ms;transition-duration:500ms}
+a:link{color:inherit}button{border:0;cursor:pointer;background:unset;color:var(--white-color)}
+p{margin:0}.flex-center{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.space-between{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
+.flex-start{-webkit-box-align:start;-ms-flex-align:start;align-items:flex-start}.content-container{width:var(--container-width);margin:0 auto}
+.panel .panel-header{border-bottom:1px solid #ddd;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;height:2.625rem}
+.panel .panel-header.no-border{border:0}.panel .panel-header .header-icon{height:1.625rem}
+.panel .panel-header .panel-more{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.panel .panel-header .panel-more a{font-weight:400;font-size:.875rem;color:#999;line-height:1.25rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.panel .panel-header .panel-more img{width:.5rem;height:.5rem;margin-left:4px}.box .box-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.box .box-header .header-icon{width:auto;height:1.8125rem}.advertisement{height:7.875rem;background:red;margin-top:1.875rem;margin-bottom:2.5rem;overflow:hidden}
+.advertisement img{width:100%}

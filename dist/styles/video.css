@@ -1,0 +1,4 @@
+.advertisement{margin:0}.video-wrapper .banner{width:100%}.video-wrapper .panel-header{margin-top:1.75rem}
+.video-wrapper .video-content{display:grid;grid-template-columns:repeat(4,1fr);grid-gap:1.25rem;margin-top:1.5rem}
+.video-wrapper .video-content .item{cursor:pointer}.video-wrapper .video-content .item img{width:17.8125rem;height:10.0625rem;background:red}
+.video-wrapper .video-content .item p{padding-top:.6875rem;padding-bottom:4px;font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;text-overflow:ellipsis;white-space:break-spaces;overflow:hidden}

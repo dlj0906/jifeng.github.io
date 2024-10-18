@@ -1,0 +1,14 @@
+.video-wrapper .video-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-top:1.5rem}
+.video-wrapper .video-content .video-line{display:-webkit-box;display:-ms-flexbox;display:flex}
+.video-wrapper .video-content .video-line .video-author{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;width:6.5rem;margin-right:1.75rem;-webkit-transition:all .6s;transition:all .6s;cursor:pointer}
+.video-wrapper .video-content .video-line .video-author:hover{-webkit-transform:translateY(-0.5rem);transform:translateY(-0.5rem)}
+.video-wrapper .video-content .video-line .video-author img{width:4rem;height:4rem;background:red;border-radius:50%;border:6px solid #e3e3e3}
+.video-wrapper .video-content .video-line .video-author .name{font-weight:500;font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem}
+.video-wrapper .video-content .video-line .video-author .intro{font-size:.8125rem;color:#999;line-height:1.125rem;margin-top:4px}
+.video-wrapper .video-content .video-line .video-list{display:-webkit-box;display:-ms-flexbox;display:flex;grid-template-columns:repeat(5,12.375rem);grid-gap:1.25rem;margin-bottom:1.375rem}
+.video-wrapper .video-content .video-line .video-list .item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;cursor:pointer}
+.video-wrapper .video-content .video-line .video-list .item .img{width:12.375rem;height:7rem;overflow:hidden;background:url(../images/mask.png) no-repeat center center;background-size:100%}
+.video-wrapper .video-content .video-line .video-list .item .img img{width:12.375rem;height:7rem;background:red;-webkit-transition:all .6s;transition:all .6s}
+.video-wrapper .video-content .video-line .video-list .item .img img:hover{-webkit-transform:scale(1.3);transform:scale(1.3)}
+.video-wrapper .video-content .video-line .video-list .item p{width:12.375rem;font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;margin-top:.5rem;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;text-overflow:ellipsis;white-space:break-spaces;overflow:hidden}
+.video-wrapper .video-content .video-line .video-list .item p:hover{color:var(--active-color)}

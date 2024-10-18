@@ -1,0 +1,11 @@
+extends common/layout.pug
+
+block append styles
+  link(rel="stylesheet" href="./styles/ranking.css")
+
+block content
+  .advertisement
+    img(src="./images/")
+  .content-container.flex-center.space-between.flex-start
+    include ranking/tech.pug
+    include ranking/electronic.pug

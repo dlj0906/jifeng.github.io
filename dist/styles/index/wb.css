@@ -1,0 +1,7 @@
+.wb{display:grid;grid-template-columns:repeat(3,1fr);grid-gap:1.25rem;margin-top:3.5rem}
+.wb .item{background:#fff;border:1px solid #e3e3e3;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;padding-bottom:1rem;-webkit-transition:all .6s;transition:all .6s;cursor:pointer}
+.wb .item:hover{-webkit-transform:translateY(-0.5rem);transform:translateY(-0.5rem)}
+.wb .item .cover{width:4rem;height:4rem;background:-webkit-gradient(linear,left top,left bottom,from(#464646),to(#323232));background:linear-gradient(180deg,#464646 0,#323232 100%);border:1px solid #e3e3e3;border-radius:50%;margin-top:-2rem}
+.wb .item .name{font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;margin-top:.5rem}
+.wb .item .vermicelli{font-size:.8125rem;color:#999;line-height:1.125rem}.wb .item .follow{width:4.25rem;height:1.625rem;border:1px solid var(--active-color);font-size:.8125rem;color:var(--active-color);line-height:1.125rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-top:.75rem}
+.wb .item .follow img{width:.75rem;margin-right:4px}

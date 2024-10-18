@@ -1,0 +1,23 @@
+@import "./index/headline.scss";
+@import "./index/hot.scss";
+@import "./index/live.scss";
+@import "./index/nav.scss";
+@import "./index/picture.scss";
+@import "./index/ranking.scss";
+@import "./index/recommend.scss";
+@import "./index/short.scss";
+@import "./index/subject.scss";
+@import "./index/video.scss";
+@import "./index/wonderful.scss";
+
+// banner
+.banner-wrapper {
+  margin-top: -60px;
+  height: 327px;
+  background: red;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}

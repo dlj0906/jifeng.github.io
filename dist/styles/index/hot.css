@@ -1,0 +1,9 @@
+.hot-wrapper{margin-left:1.9375rem}.hot-wrapper .hot-content .comment{max-height:44.5625rem;overflow-y:auto}
+.hot-wrapper .hot-content .comment .item{padding:.75rem 0;border-bottom:1px solid #f2f2f2}
+.hot-wrapper .hot-content .comment .item .text{font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;margin-bottom:.5rem}
+.hot-wrapper .hot-content .comment .item .imgs{display:-webkit-box;display:-ms-flexbox;display:flex;margin-bottom:.75rem}
+.hot-wrapper .hot-content .comment .item .imgs img{width:3.625rem;height:3.625rem;margin-right:.75rem}
+.hot-wrapper .hot-content .comment .item .info{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;font-size:.8125rem;color:#999;line-height:1.125rem}
+.hot-wrapper .hot-content .comment .item .info .name{margin-left:.75rem}.hot-wrapper .hot-content .comment .item .info .controls{display:-webkit-box;display:-ms-flexbox;display:flex;margin-left:auto;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.hot-wrapper .hot-content .comment .item .info .controls .control{margin-left:1rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
+.hot-wrapper .hot-content .comment .item .info .controls .control img{width:1rem;margin-right:2px}

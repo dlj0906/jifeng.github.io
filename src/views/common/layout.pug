@@ -1,0 +1,15 @@
+doctype html
+html(lang="en_US")
+  head
+    block styles
+      include head.pug
+  body
+    include header.pug
+    block content
+    block scripts
+      include plugins.pug
+  footer
+    include footer.pug
+
+    noscript
+      strong We're sorry but Nasimobi doesn't work properly without JavaScript enabled. Please enable it to continue.

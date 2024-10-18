@@ -1,0 +1,14 @@
+.footer-wrapper{background:#fff;-webkit-box-shadow:0 -1px .9375rem 0 rgba(0,0,0,0.06);box-shadow:0 -1px .9375rem 0 rgba(0,0,0,0.06);margin-top:2.25rem}
+.footer-wrapper .footer-container{padding:4.375rem 0 3.375rem 0}.footer-wrapper .footer-container .footer-content{display:-webkit-box;display:-ms-flexbox;display:flex;font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem}
+.footer-wrapper .footer-container .footer-content .footer-logo{margin-top:1.25rem}
+.footer-wrapper .footer-container .footer-content .footer-logo .logo{width:5.5rem;height:auto}
+.footer-wrapper .footer-container .footer-content .contact,.footer-wrapper .footer-container .footer-content .agreement{margin-left:9.375rem;margin-top:1.25rem}
+.footer-wrapper .footer-container .footer-content .contact .title,.footer-wrapper .footer-container .footer-content .agreement .title{font-weight:500;margin-bottom:1.5rem}
+.footer-wrapper .footer-container .footer-content .contact p,.footer-wrapper .footer-container .footer-content .contact a,.footer-wrapper .footer-container .footer-content .agreement p,.footer-wrapper .footer-container .footer-content .agreement a{margin-bottom:.5rem}
+.footer-wrapper .footer-container .footer-content .agreement{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-left:2.9375rem;position:relative;padding-right:7.5rem}
+.footer-wrapper .footer-container .footer-content .agreement:before{content:"";position:absolute;right:0;top:-0.875rem;width:1px;height:10.1875rem;background:#f2f2f2}
+.footer-wrapper .footer-container .footer-content .qrcodes{display:grid;grid-template-columns:repeat(3,8.125rem);grid-gap:1.25rem;margin-left:auto}
+.footer-wrapper .footer-container .footer-content .qrcodes .item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
+.footer-wrapper .footer-container .footer-content .qrcodes .item img{width:8.125rem;height:8.125rem;border:1px solid #e3e3e3;background:red}
+.footer-wrapper .footer-container .footer-content .qrcodes .item p{font-size:.9375rem;color:#3a3a3a;line-height:1.125rem;margin-top:.5rem;text-align:center}
+.footer-wrapper .footer-bottom{text-align:center;font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;padding:1.5rem 0;border-top:1px solid #dbdbdb}

@@ -1,0 +1,107 @@
+$header-height: 60px;
+
+.header-wrapper {
+
+  .header-shadow {
+    height: $header-height;
+  }
+
+  .header-container {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    position: fixed;
+    background: rgba(0,0,0,0.85);
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+    backdrop-filter: blur(10px);
+
+    .header-content {
+      display: flex;
+      margin: 0 auto;
+      align-items: center;
+      height: $header-height;
+      width: var(--container-width);
+      color: #FFFFFF;
+
+      .header-logo {
+        margin-right: 130px;
+
+        .logo {
+          width: 40px;
+          height: auto;
+        }
+      }
+
+      .header-links {
+        flex-shrink: 0;
+        display: flex;
+
+        .header-link {
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 21px;
+          display: flex;
+          align-items: center;
+          color: #FFFFFF;
+
+          &:not(:first-child) {
+            margin-left: 40px;
+          }
+
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 2px;
+          }
+
+          &.active {
+            color: #3A3A3A;
+          }
+        }
+      }
+
+      .header-search {
+        display: flex;
+        justify-content: space-between;
+        width: 256px;
+        height: 36px;
+        border-radius: 18px;
+        border: 1px solid #E3E3E3;
+        padding-left: 20px;
+        margin-left: 28px;
+
+        .header-input {
+          background: transparent;
+          border: none;
+          color: #FFFFFF;
+          flex: 1;
+          width: 154px;
+          font-size: 16px;
+
+          &::placeholder {
+            color: #FFFFFF;
+          }
+
+          &:focus {
+            border: none;
+          }
+        }
+
+        .header-search-icon {
+          width: 50px;
+          border-left: 1px solid #FFFFFF;
+          display: flex;
+          align-items: center;
+          padding-left: 14px;
+          padding-right: 17px;
+          cursor: pointer;
+
+          img {
+            width: 18px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+extends common/layout.pug
+
+block append styles
+  link(rel="stylesheet" href="./styles/video-detail.css")
+  link(rel="stylesheet" href="./styles/index/nav.css")
+
+block content
+  .advertisement(style="margin:0")
+    img(src="./images/demo.png")
+  include home/nav.pug
+  .video-detail-content.content-container.space-between
+    .left
+      .title 博主进行小米SU7与极氪007碰撞测试疑
+      .author
+        img.avatar(src="./images/demo.png")
+        .name 博主
+        .time 2024-09-10
+      .text 就在近日，8月13日，知名汽车博主高若翔（@原来是翔翔啊 ），发布了一条“小米su7与极氪007对撞”的相关视频，一经发出，就在全网引起数百万的播放量和高度的关注。
+      video.video-wrapper#player(playsinline controls data-poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg")
+        source(src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-576p.mp4" type="video/mp4")
+      .text 就在近日，8月13日，知名汽车博主高若翔（@原来是翔翔啊 ），发布了一条“小米su7与极氪007对撞”的相关视频，一经发出，就在全网引起数百万的播放量和高度的关注。
+    .right
+      img.ad(src="./images/demo.png")
+      .panel.video-list
+        .panel-header
+          img.header-icon(src="./images/panel/video-list.png")
+        .panel-content
+          a.item(href="./videoDetail.html")
+            img(src="./images/demo.png")
+            .info
+              .name iQOO Neo9S Pro+星耀白：不止双芯还有超声波指纹
+              .time 2024-08-15 10:33:31
+          a.item(href="./videoDetail.html")
+            img(src="./images/demo.png")
+            .info
+              .name iQOO Neo9S Pro+星耀白：不止双芯还有超声波指纹
+              .time 2024-08-15 10:33:31
+          a.item(href="./videoDetail.html")
+            img(src="./images/demo.png")
+            .info
+              .name iQOO Neo9S Pro+星耀白：不止双芯还有超声波指纹
+              .time 2024-08-15 10:33:31
+          a.item(href="./videoDetail.html")
+            img(src="./images/demo.png")
+            .info
+              .name iQOO Neo9S Pro+星耀白：不止双芯还有超声波指纹
+              .time 2024-08-15 10:33:31
+      .panel.article
+        .panel-header
+          img.header-icon(src="./images/panel/see.png")
+        .panel-content
+          a.item(href="./articleDetail.html") 美的推出冷暖箱 DC-4M：4L 容量、半导体制冷，售价 169 元
+          a.item(href="./articleDetail.html") 美的推出冷暖箱 DC-4M：4L 容量、半导体制冷，售价 169 元
+          a.item(href="./articleDetail.html") 美的推出冷暖箱 DC-4M：4L 容量、半导体制冷，售价 169 元
+          a.item(href="./articleDetail.html") 美的推出冷暖箱 DC-4M：4L 容量、半导体制冷，售价 169 元
+          a.item(href="./articleDetail.html") 美的推出冷暖箱 DC-4M：4L 容量、半导体制冷，售价 169 元
+      include components/follow
+

@@ -1,0 +1,40 @@
+.nav-wrapper {
+  background: #EFFBFB;
+  padding: 10px 0;
+
+  .nav-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    font-weight: 500;
+    font-size: 16px;
+    color: #3A3A3A;
+    line-height: 22px;
+
+    .item {
+      text-align: center;
+      position: relative;
+      cursor: pointer;
+
+      &:hover {
+        color: var(--active-color);
+      }
+
+      &:last-child {
+
+        &:after {
+          display: none;
+        }
+      }
+
+      &:after {
+        content: '';
+        width: 1px;
+        height: 18px;
+        position: absolute;
+        background: #3A3A3A;
+        right: 0;
+        top: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,152 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  position: relative;
+}
+
+body {
+  font-size: 24px;
+  font-weight: 400;
+  background: #FBFBFB;
+}
+
+* {
+  scrollbar-width: thin !important;
+
+  ::-webkit-scrollbar {
+    width: 2px;
+    height: 2px;
+
+    &:hover {
+      width: 4px;
+      height: 4px;
+    }
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 50%;
+    background-color: #858585;
+  }
+
+  ::-webkit-scrollbar-track {
+    border-radius: 50%;
+    background-color: #F0F0F0;
+  }
+}
+
+*, *::before, *::after {
+  line-height: 1;
+  user-select: none;
+  box-sizing:  border-box;
+  scroll-behavior: smooth;
+  font-family: 'DingTalk', 'Microsoft YaHei';
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  transition-duration: 500ms;
+
+  &:link {
+    color: inherit;
+  }
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: unset;
+  color: var(--white-color);
+}
+
+p {
+  margin: 0;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-start {
+  align-items: flex-start;
+}
+
+.content-container {
+  width: var(--container-width);
+  margin: 0 auto;
+}
+
+.panel {
+
+  .panel-header {
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 42px;
+
+    &.no-border {
+      border: none;
+    }
+
+    .header-icon {
+      height: 26px;
+    }
+
+    .panel-more {
+      display: flex;
+      align-items: center;
+
+      a {
+        font-weight: 400;
+        font-size: 14px;
+        color: #999999;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+      }
+
+      img {
+        width: 8px;
+        height: 8px;
+        margin-left: 4px;
+      }
+    }
+  }
+}
+
+.box {
+
+  .box-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-icon {
+      width: auto;
+      height: 29px;
+    }
+  }
+}
+
+// 广告
+.advertisement {
+  height: 126px;
+  background: red;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+  }
+}
+

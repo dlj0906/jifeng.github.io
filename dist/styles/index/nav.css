@@ -1,0 +1,4 @@
+.nav-wrapper{background:#effbfb;padding:.625rem 0}.nav-wrapper .nav-content{display:grid;grid-template-columns:repeat(4,1fr);font-weight:500;font-size:1rem;color:#3a3a3a;line-height:1.375rem}
+.nav-wrapper .nav-content .item{text-align:center;position:relative;cursor:pointer}
+.nav-wrapper .nav-content .item:hover{color:var(--active-color)}.nav-wrapper .nav-content .item:last-child:after{display:none}
+.nav-wrapper .nav-content .item:after{content:"";width:1px;height:1.125rem;position:absolute;background:#3a3a3a;right:0;top:0}

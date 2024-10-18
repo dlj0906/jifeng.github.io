@@ -1,0 +1,150 @@
+// 排行榜
+.ranking-wrapper {
+  width: 594px;
+  margin: 0 40px 0 0;
+
+  .layui-tab-title {
+    display: flex;
+    border: 0;
+
+    li {
+      font-size: 20px;
+      color: rgba(34,34,34,0.8);
+      line-height: 29px;
+      margin-right: 20px;
+      height: 40px;
+      padding: 0 0 12px;
+      font-weight: normal;
+
+      &:hover {
+        color: var(--active-color);
+      }
+
+      &.layui-this {
+        font-size: 24px;
+        color: var(--active-color);
+        line-height: 29px;
+        position: relative;
+
+        &:after {
+          content: '';
+          border: 0;
+          width: 100%;
+          height: 4px;
+          background: var(--active-color);
+          box-shadow: 0 0 8px 0 rgba(0,0,0,0.08);
+          backdrop-filter: blur(10px);
+          position: absolute;
+          top: 37px;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  .ranking-content {
+    margin-top: 24px;
+    padding: 0;
+
+    .item-content {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .ranking-left {
+
+      .ranking-item {
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 20px;
+        transition: all 0.6s;
+        cursor: pointer;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &:hover {
+          transform: translateY(-8px);
+        }
+
+        .ranking-img {
+          width: 91px;
+          height: 91px;
+          margin-right: 20px;
+          margin-top: 15px;
+        }
+
+        .item-img {
+          width: 120px;
+          height: 120px;
+          background: #FFFFFF;
+          border: 1px solid #EEEEEE;
+          margin-right: 12px;
+        }
+
+        .item-info {
+          padding: 24px 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .name {
+            font-size: 15px;
+            color: #222222;
+            line-height: 21px;
+          }
+
+          .price {
+            font-size: 13px;
+            color: #999999;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+
+    .ranking-right {
+
+      .ranking-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+        transition: all 0.6s;
+        cursor: pointer;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &:hover {
+          transform: translateY(-8px);
+        }
+
+        .item-img {
+          width: 54px;
+          height: 54px;
+          background: #FFFFFF;
+          border: 1px solid #EEEEEE;
+          margin-right: 8px;
+        }
+
+        .item-info {
+
+          .name {
+            font-size: 15px;
+            color: #222222;
+            line-height: 21px;
+            margin-bottom: 5px;
+          }
+
+          .price {
+            font-size: 13px;
+            color: #999999;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}

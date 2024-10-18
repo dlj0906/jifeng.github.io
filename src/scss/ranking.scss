@@ -1,0 +1,299 @@
+
+// 科技排行榜
+.ranking-tech-wrapper {
+
+  .tech-content {
+
+    .left-tab {
+      display: flex;
+      margin: 0;
+
+      .title {
+        width: 151px;
+        height: 29px;
+        margin-bottom: 17px;
+      }
+
+      .left-tab-header {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        border: 0;
+
+        .layui-unselect {
+          display: none;
+        }
+
+        .left-tab-item {
+          width: 200px;
+          height: 42px;
+          background: #F2F2F2;
+          display: flex;
+          align-items: center;
+          margin-bottom: 16px;
+          font-weight: 500;
+          font-size: 16px;
+          color: #3A3A3A;
+          line-height: 22px;
+          padding: 0 0 0 16px;
+
+          &:hover {
+            background: rgba(0,182,182,0.2);
+          }
+
+          &.layui-this {
+            background: var(--active-color);
+            color: #FFFFFF;
+          }
+
+          &:after {
+            display: none;
+          }
+
+          img {
+            width: 18px;
+            margin-right: 4px;
+          }
+        }
+      }
+
+      .layui-tab-content {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.ranking-tech-tab-wrapper {
+  margin-left: 20px;
+  width: 581px;
+
+  .tech-tab-content {
+
+    .layui-tab {
+      margin: 0;
+
+      .layui-tab-title {
+        display: flex;
+        height: 42px;
+        flex-direction: row;
+        background: #F2F2F2;
+        padding: 0 52px;
+
+        .layui-unselect {
+          display: none;
+        }
+
+        li {
+          width: auto;
+          padding: 0;
+          text-align: center;
+          font-size: 16px;
+          color: rgba(58,58,58,0.6);
+          line-height: 42px;
+          flex: 1;
+
+          &:after {
+            width: 33px;
+            border-bottom: 4px solid var(--active-color);
+            left: 50%;
+            transform: translateX(-50%);
+          }
+
+          &.layui-this {
+            font-weight: 500;
+            color: #3A3A3A;
+            background: transparent;
+          }
+
+          &:hover {
+            font-weight: 500;
+            color: #3A3A3A;
+            background: transparent;
+          }
+        }
+      }
+
+      .layui-tab-content {
+        padding-top: 30px;
+
+        .layui-tab-item {
+
+          .item {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            margin-bottom: 48px;
+
+            &:hover {
+
+              .name {
+                color: var(--active-color);
+              }
+
+              .layui-progress {
+                box-shadow: 0 4px 4px 0 rgba(0,0,0,0.12);
+
+                .layui-progress-bar {
+                  box-shadow: 0 2px 4px 0 rgba(10,114,114,0.46);
+                }
+              }
+            }
+
+            .rank {
+              width: 30px;
+              height: auto;
+              font-family: Akrobat, Akrobat;
+              font-weight: 800;
+              font-size: 17px;
+              color: #BBBBBB;
+              line-height: 21px;
+              text-align: center;
+            }
+
+            .item-content {
+              display: flex;
+              flex-direction: column;
+              margin-left: 13px;
+
+              .info {
+                font-size: 15px;
+                color: #222222;
+                line-height: 21px;
+                display: flex;
+                justify-content: space-between;
+                margin-bottom: 6px;
+              }
+
+              .layui-progress {
+                width: 537px;
+                height: 12px;
+                border-radius: 6px;
+
+                .layui-progress-bar {
+                  height: 100%;
+                  background: rgba(0,182,182,0.7);
+                  border-radius: 6px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 机锋数码榜
+.ranking-electronic-wrapper {
+  width: 370px;
+
+  .electronic-content {
+
+    .top {
+      display: flex;
+      position: relative;
+
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: cover;
+        width: 110px;
+        height: 154px;
+        position: absolute;
+
+        &.one {
+          background-image: url(../images/ranking/yellow.png);
+          left: 130px;
+          top: 51px;
+        }
+
+        &.two {
+          background-image: url(../images/ranking/blue.png);
+          left: 0;
+          top: 71px;
+        }
+
+        &.three {
+          background-image: url(../images/ranking/pink.png);
+          right: 0;
+          top: 81px;
+        }
+
+        img {
+          width: 80px;
+          height: 80px;
+          background: #FFFFFF;
+          border: 1px solid #EEEEEE;
+          margin-top: -40px;
+        }
+
+        .rank {
+          font-weight: 800;
+          font-size: 32px;
+          color: #FFFFFF;
+          line-height: 40px;
+          margin-top: 3px;
+        }
+
+        .name {
+          width: 96px;
+          font-size: 15px;
+          color: #FFFFFF;
+          line-height: 19px;
+          text-align: center;
+          margin-top: 3px;
+        }
+      }
+    }
+
+    .list {
+      margin-top: 242px;
+
+      .item {
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 12px;
+
+        img {
+          width: 80px;
+          height: 80px;
+          border: 1px solid #EEEEEE;
+          margin-right: 12px;
+        }
+
+        .rank {
+          width: 42px;
+          font-family: Akrobat, Akrobat;
+          font-weight: 800;
+          font-size: 22px;
+          color: #BBBBBB;
+          line-height: 80px;
+          text-align: center;
+          font-style: normal;
+        }
+
+        .item-info {
+          padding-top: 11px;
+          padding-bottom: 8px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+
+          .name {
+            font-size: 15px;
+            color: #222222;
+            line-height: 21px;
+          }
+
+          .price {
+            font-size: 13px;
+            color: #999999;
+            line-height: 18px;
+          }
+        }
+      }
+    }
+  }
+}

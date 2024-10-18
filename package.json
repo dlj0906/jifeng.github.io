@@ -1,0 +1,36 @@
+{
+  "name": "jifeng-website",
+  "version": "1.0.0",
+  "author": "Loki",
+  "license": "ISC",
+  "description": "jifeng website",
+  "keywords": [
+    "jifeng"
+  ],
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.54.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.nasimobi.com/youen/enjia-www"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1",
+    "layui": "^2.9.18",
+    "lodash": "^4.17.21",
+    "plyr": "^3.7.8",
+    "wowjs": "^1.1.3"
+  }
+}
