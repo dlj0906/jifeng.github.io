@@ -1,4 +1,6 @@
-
+.advertisement {
+  margin: 0 0 30px;
+}
 // 科技排行榜
 .ranking-tech-wrapper {
 
@@ -143,7 +145,7 @@
             .rank {
               width: 30px;
               height: auto;
-              font-family: Akrobat, Akrobat;
+              font-family: Akrobat;
               font-weight: 800;
               font-size: 17px;
               color: #BBBBBB;
@@ -230,6 +232,7 @@
         }
 
         .rank {
+          font-family: Akrobat;
           font-weight: 800;
           font-size: 32px;
           color: #FFFFFF;

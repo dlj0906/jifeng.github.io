@@ -1,4 +1,5 @@
 @font-face{font-family:"DingTalk";src:url("../../fonts/DingTalk_JinBuTi_Regular.ttf");font-style:normal;font-weight:normal}
+@font-face{font-family:"Akrobat";src:url("../../fonts/Akrobat-ExtraBold.ttf");font-style:normal;font-weight:normal}
 :root{--container-width:75rem;--active-color:#00b6b6;--black-color:#252525;--black-bg-color:#282626;--blue-color:#2f88ff;--border-color:#e5e5e5;--secondary-color:#666;--tip-color:#999;--primary-color:#333;--white-color:white;--image-filter-color:rgba(40,38,38,0.96)}
 html,body{margin:0;padding:0;height:100vh;position:relative}body{font-size:1.5rem;font-weight:400;background:#fbfbfb}
 *{scrollbar-width:thin !important}* ::-webkit-scrollbar{width:2px;height:2px}* ::-webkit-scrollbar:hover{width:4px;height:4px}

@@ -1,4 +1,4 @@
-.ranking-tech-wrapper .tech-content .left-tab{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0}
+.advertisement{margin:0 0 1.875rem}.ranking-tech-wrapper .tech-content .left-tab{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0}
 .ranking-tech-wrapper .tech-content .left-tab .title{width:9.4375rem;height:1.8125rem;margin-bottom:1.0625rem}
 .ranking-tech-wrapper .tech-content .left-tab .left-tab-header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;height:auto;border:0}
 .ranking-tech-wrapper .tech-content .left-tab .left-tab-header .layui-unselect{display:none}
@@ -19,7 +19,7 @@
 .ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item:hover .name{color:var(--active-color)}
 .ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item:hover .layui-progress{-webkit-box-shadow:0 4px 4px 0 rgba(0,0,0,0.12);box-shadow:0 4px 4px 0 rgba(0,0,0,0.12)}
 .ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item:hover .layui-progress .layui-progress-bar{-webkit-box-shadow:0 2px 4px 0 rgba(10,114,114,0.46);box-shadow:0 2px 4px 0 rgba(10,114,114,0.46)}
-.ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item .rank{width:1.875rem;height:auto;font-family:Akrobat,Akrobat;font-weight:800;font-size:1.0625rem;color:#bbb;line-height:1.3125rem;text-align:center}
+.ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item .rank{width:1.875rem;height:auto;font-family:Akrobat;font-weight:800;font-size:1.0625rem;color:#bbb;line-height:1.3125rem;text-align:center}
 .ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item .item-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;margin-left:.8125rem}
 .ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item .item-content .info{font-size:.9375rem;color:#222;line-height:1.3125rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;margin-bottom:.375rem}
 .ranking-tech-tab-wrapper .tech-tab-content .layui-tab .layui-tab-content .layui-tab-item .item .item-content .layui-progress{width:33.5625rem;height:.75rem;border-radius:6px}
@@ -30,7 +30,7 @@
 .ranking-electronic-wrapper .electronic-content .top .item.two{background-image:url(../images/ranking/blue.png);left:0;top:4.4375rem}
 .ranking-electronic-wrapper .electronic-content .top .item.three{background-image:url(../images/ranking/pink.png);right:0;top:5.0625rem}
 .ranking-electronic-wrapper .electronic-content .top .item img{width:5rem;height:5rem;background:#fff;border:1px solid #eee;margin-top:-2.5rem}
-.ranking-electronic-wrapper .electronic-content .top .item .rank{font-weight:800;font-size:2rem;color:#fff;line-height:2.5rem;margin-top:3px}
+.ranking-electronic-wrapper .electronic-content .top .item .rank{font-family:Akrobat;font-weight:800;font-size:2rem;color:#fff;line-height:2.5rem;margin-top:3px}
 .ranking-electronic-wrapper .electronic-content .top .item .name{width:6rem;font-size:.9375rem;color:#fff;line-height:1.1875rem;text-align:center;margin-top:3px}
 .ranking-electronic-wrapper .electronic-content .list{margin-top:15.125rem}.ranking-electronic-wrapper .electronic-content .list .item{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;margin-bottom:.75rem}
 .ranking-electronic-wrapper .electronic-content .list .item img{width:5rem;height:5rem;border:1px solid #eee;margin-right:.75rem}
