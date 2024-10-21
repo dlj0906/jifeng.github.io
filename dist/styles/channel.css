@@ -35,4 +35,4 @@
 .channel-wrapper .channel-container .right .dialogue .texts a{display:inline-block;font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;margin-bottom:1.5rem}
 .channel-wrapper .channel-container .right .dialogue .more{width:23.125rem;height:2rem;border:1px solid #00b6b6;font-size:.9375rem;color:#00b6b6;line-height:1.3125rem;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}
 .channel-wrapper .channel-container .right .dialogue .more img{width:.625rem;height:.625rem;margin-left:4px;-webkit-transform:rotateZ(-90deg);transform:rotateZ(-90deg)}
-.channel-wrapper .channel-container .right .see .texts{margin-top:1.5rem}.channel-wrapper .channel-container .right .see .texts .text{font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;margin-bottom:1.5rem;display:block}
+.channel-wrapper .channel-container .right .see .texts{margin-top:1.5rem}.channel-wrapper .channel-container .right .see .texts .item{font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;margin-bottom:1.5rem;display:block}
