@@ -27,11 +27,13 @@
         }
 
         .text {
+          position: relative;
+          padding-left: 20px;
 
           &::after {
             width: 14px;
             height: 14px;
-            background: url(../images/headline-top.png) no-repeat center center;
+            background: url(../images/headline-top.png) no-repeat left center;
             background-size: contain;
           }
         }
@@ -47,7 +49,7 @@
         }
       }
 
-      &:not(:nth-child(1)) {
+      &:not(:nth-child(1)), &:not(:nth-child(2)) {
 
         &:hover {
 

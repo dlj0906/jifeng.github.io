@@ -3,4 +3,5 @@
 .subject-wrapper .subject-content .texts .item:hover .text{color:#40abff}.subject-wrapper .subject-content .texts .item .label{width:2.125rem;height:1.125rem;background:#40abff;font-weight:400;font-size:.75rem;color:#fff;line-height:1.125rem;text-align:center;margin-right:.5625rem}
 .subject-wrapper .subject-content .texts .item .text{-webkit-box-flex:1;-ms-flex:1;flex:1;font-weight:500;font-size:1rem;color:#3a3a3a;line-height:1.375rem;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .subject-wrapper .subject-content .imgs{display:grid;grid-template-columns:repeat(3,24.125rem);grid-gap:1.25rem;height:13.5625rem;margin-top:1rem}
-.subject-wrapper .subject-content .imgs img{background:red;width:100%;height:100%;cursor:pointer}
+.subject-wrapper .subject-content .imgs a{overflow:hidden}.subject-wrapper .subject-content .imgs img{background:red;width:100%;height:100%;cursor:pointer;-webkit-transition:all .6s;transition:all .6s}
+.subject-wrapper .subject-content .imgs img:hover{-webkit-transform:scale(1.3);transform:scale(1.3)}

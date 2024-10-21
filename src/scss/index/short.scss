@@ -10,8 +10,20 @@
     .item {
       cursor: pointer;
 
+      &:hover {
+
+        .cover {
+          transform: scale(1.3);
+        }
+
+        .title {
+          color: var(--active-color);
+        }
+      }
+
       &>div {
         position: relative;
+        overflow: hidden;
 
         .play {
           position: absolute;
@@ -25,6 +37,7 @@
           width: 224px;
           height: 298px;
           background: red;
+          transition: all 0.6s;
         }
       }
 
