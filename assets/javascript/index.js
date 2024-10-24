@@ -2,6 +2,9 @@ const HeaderLinkKey = 'header-link';
 
 function init () {
   const index = sessionStorage.getItem(HeaderLinkKey);
+
+  if (window.location.pathname.includes('index.html')) return
+  $(".header-border").show()
   $(".header-js-link").eq(index).addClass('active').siblings().removeClass('active');
 }
 
