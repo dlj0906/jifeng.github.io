@@ -4,8 +4,11 @@ function init () {
   const index = sessionStorage.getItem(HeaderLinkKey);
 
   if (window.location.pathname.includes('index.html')) return
-  $(".header-border").show()
-  $(".header-js-link").eq(index).addClass('active').siblings().removeClass('active');
+
+  if (window.location.pathname.includes('channel.html')) {
+    $(".header-border").show()
+    $(".header-js-link").eq(index).addClass('active').siblings().removeClass('active');
+  }
 }
 
 $(".header-link").click(function(){
