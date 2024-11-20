@@ -1,15 +1,33 @@
+block append styles
+  link(rel="stylesheet" href="./css/swiper.min.css")
+
 .wonderful-wrapper.content-container
-  .wonderful-left
-    img(src="./images/demo.png")
-  .wonderful-right
-    .wonderful-right-content
-      div
-        img(src="./images/demo.png")
-      div
-        img(src="./images/demo.png")
-      div
-        img(src="./images/demo.png")
-      div
-        img(src="./images/demo.png")
-    a(href="./video.html")
-      img.wonderful-video(src="./images/wonderful-video.png")
+    .swiper-container.swiper-no-swiping.wonderful-left
+        .swiper-wrapper
+            .swiper-slide
+                img(src="./images/demo.png")
+            .swiper-slide
+                img(src="./images/banner.png")
+        .swiper-pagination
+    .wonderful-right
+        .wonderful-right-content
+            div
+                img(src="./images/demo.png")
+            div
+                img(src="./images/demo.png")
+            div
+                img(src="./images/demo.png")
+            div
+                img(src="./images/demo.png")
+        a(href="./video.html")
+            img.wonderful-video(src="./images/wonderful-video.png")
+
+block append scripts
+  script(src="./javascript/swiper.min.js")
+  script.
+    var partnerSwiper = new Swiper('.wonderful-left', {
+        autoplay: true,
+        loop: true,
+        autoplay: 3000,
+        pagination: '.swiper-pagination',
+    });

@@ -1,4 +1,5 @@
-.article-detail-container{margin-top:3.75rem}.article-detail-container .left{width:49.375rem}
+.article-detail-container{margin-top:3.75rem;position:relative}.article-detail-container .ad-position{width:11.1875rem;height:auto;position:absolute;top:25.75rem;left:-14.375rem}
+.article-detail-container .ad-position.ad-right{left:unset;right:-14.375rem}.article-detail-container .left{width:49.375rem}
 .article-detail-container .left .title{font-weight:600;font-size:1.875rem;color:#222;line-height:2.625rem}
 .article-detail-container .left .author{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin-top:1.5rem;font-size:1.125rem;color:#666;line-height:1.5625rem;margin-bottom:2.5625rem}
 .article-detail-container .left .author .avatar{width:2.25rem;height:2.25rem;border-radius:50%}

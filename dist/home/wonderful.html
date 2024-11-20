@@ -1,6 +1,13 @@
 
+<link rel="stylesheet" href="./css/swiper.min.css"/>
 <div class="wonderful-wrapper content-container">
-  <div class="wonderful-left"><img src="./images/demo.png"/></div>
+  <div class="swiper-container swiper-no-swiping wonderful-left">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="./images/demo.png"/></div>
+      <div class="swiper-slide"><img src="./images/banner.png"/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
   <div class="wonderful-right">
     <div class="wonderful-right-content">
       <div><img src="./images/demo.png"/></div>
@@ -10,3 +17,12 @@
     </div><a href="./video.html"><img class="wonderful-video" src="./images/wonderful-video.png"/></a>
   </div>
 </div>
+<script src="./javascript/swiper.min.js"></script>
+<script>
+  var partnerSwiper = new Swiper('.wonderful-left', {
+      autoplay: true,
+      loop: true,
+      autoplay: 3000,
+      pagination: '.swiper-pagination',
+  });
+</script>

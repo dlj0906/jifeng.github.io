@@ -1,60 +1,74 @@
 // 推荐视频
 .wonderful-wrapper {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 
-  .wonderful-left {
-    width: 738px;
-    height: 406px;
-    background: red;
-    overflow: hidden;
-    cursor: pointer;
-
-    img {
-      width: 100%;
-      height: 100%;
-      transition: all 0.6s;
-
-      &:hover {
-        transform: scale(1.3);
-      }
-    }
-  }
-
-  .wonderful-right {
-
-    .wonderful-right-content {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 20px;
-
-      &>div {
-        width: 211px;
-        height: 141px;
-        overflow: hidden;
-      }
-
-      img {
-        width: 211px;
-        height: 141px;
+    .wonderful-left {
+        width: 738px;
+        height: 406px;
         background: red;
-        transition: all 0.6s;
+        overflow: hidden;
+        cursor: pointer;
+        margin: 0;
 
-        &:hover {
-          transform: scale(1.3);
+        img {
+            width: 100%;
+            height: 100%;
+            transition: all 0.6s;
+
+            &:hover {
+                transform: scale(1.3);
+            }
         }
-      }
+
+        .swiper-pagination {
+
+            .swiper-pagination-bullet {
+                width: 10px;
+                height: 10px;
+                background: rgba(255, 255, 255, 0.5);
+            }
+
+            .swiper-pagination-bullet-active {
+                background: #FFFFFF;
+            }
+        }
     }
 
-    .wonderful-video {
-      height: 84px;
-      margin-top: 20px;
-      cursor: pointer;
-      transition: all 0.6s;
+    .wonderful-right {
 
-      &:hover {
-        margin-top: 12px;
-      }
+        .wonderful-right-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+
+            &>div {
+                width: 211px;
+                height: 141px;
+                overflow: hidden;
+            }
+
+            img {
+                width: 211px;
+                height: 141px;
+                background: red;
+                transition: all 0.6s;
+
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
+
+        .wonderful-video {
+            height: 84px;
+            margin-top: 20px;
+            cursor: pointer;
+            transition: all 0.6s;
+
+            &:hover {
+                margin-top: 12px;
+            }
+        }
     }
-  }
 }

@@ -1,5 +1,19 @@
 .article-detail-container {
     margin-top: 60px;
+    position: relative;
+
+    .ad-position {
+        width: 179px;
+        height: auto;
+        position: absolute;
+        top: 412px;
+        left: -230px;
+
+        &.ad-right {
+            left: unset;
+            right: -230px;
+        }
+    }
 
     .left {
         width: 790px;

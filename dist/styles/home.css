@@ -94,9 +94,11 @@
 .video-wrapper .video-content .video-line .video-list .item p{width:12.375rem;font-size:.9375rem;color:#3a3a3a;line-height:1.3125rem;margin-top:.5rem;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;text-overflow:ellipsis;white-space:break-spaces;overflow:hidden}
 .video-wrapper .video-content .video-line .video-list .item p:hover{color:var(--active-color)}
 .wonderful-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}
-.wonderful-wrapper .wonderful-left{width:46.125rem;height:25.375rem;background:red;overflow:hidden;cursor:pointer}
+.wonderful-wrapper .wonderful-left{width:46.125rem;height:25.375rem;background:red;overflow:hidden;cursor:pointer;margin:0}
 .wonderful-wrapper .wonderful-left img{width:100%;height:100%;-webkit-transition:all .6s;transition:all .6s}
 .wonderful-wrapper .wonderful-left img:hover{-webkit-transform:scale(1.3);transform:scale(1.3)}
+.wonderful-wrapper .wonderful-left .swiper-pagination .swiper-pagination-bullet{width:.625rem;height:.625rem;background:rgba(255,255,255,0.5)}
+.wonderful-wrapper .wonderful-left .swiper-pagination .swiper-pagination-bullet-active{background:#fff}
 .wonderful-wrapper .wonderful-right .wonderful-right-content{display:grid;grid-template-columns:1fr 1fr;grid-gap:1.25rem}
 .wonderful-wrapper .wonderful-right .wonderful-right-content>div{width:13.1875rem;height:8.8125rem;overflow:hidden}
 .wonderful-wrapper .wonderful-right .wonderful-right-content img{width:13.1875rem;height:8.8125rem;background:red;-webkit-transition:all .6s;transition:all .6s}
