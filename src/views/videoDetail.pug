@@ -9,8 +9,12 @@ block content
     img(src="./images/demo.png")
   include home/nav.pug
   .video-detail-content.content-container.space-between
-    img.ad-position.ad-left(src="./images/demo1.png")
-    img.ad-position.ad-right(src="./images/demo1.png")
+    .ad-position.ad-left
+        img(src="./images/demo1.png")
+        img.close(src="./images/close.png")
+    .ad-position.ad-right
+        img(src="./images/demo1.png")
+        img.close(src="./images/close.png")
     .left
       .title 博主进行小米SU7与极氪007碰撞测试疑
       .author

@@ -13,6 +13,15 @@
             left: unset;
             right: -230px;
         }
+
+        .close {
+            width: 24px;
+            height: 24px;
+            position: absolute;
+            right: 12px;
+            top: 12px;
+            cursor: pointer;
+        }
     }
 
     .left {
